@@ -5,7 +5,7 @@
 
 Name:		%{?scl_prefix}nodejs-ansi
 Version:	0.3.0
-Release:	2%{?dist}
+Release:	3%{?dist}
 Summary:	ANSI escape codes for Node.js
 License:	MIT
 URL:		https://github.com/TooTallNate/ansi.js
@@ -57,6 +57,9 @@ cp -pr lib package.json %{buildroot}%{nodejs_sitelib}/ansi
 %license LICENSE
 
 %changelog
+* Sun Feb 14 2016 Zuzana Svetlikova <zsvetlik@redhat.com> - 0.3.0-3
+- rebuilt
+
 * Mon Aug 10 2015 Zuzana Svetlikova <zsvetlik@redhat.com> - 0.3.0-2
 - rebuilt
 
